@@ -60,8 +60,6 @@ class UserConnection
   end
 end
 
-
-
 user_get_true_active = UserConnection.user_get
 
 doc_file_path = '/Users/han/Documents/learn_Ruby/test1/BTVN/rubybt7.doc'
@@ -70,6 +68,5 @@ zip_file_path = "/Users/han/Documents/learn_Ruby/test1/BTVN/rubybt7#{Time.now.st
 UserConnection.export_to_file(user_get_true_active, doc_file_path)
 UserConnection.create_zip_file(doc_file_path, zip_file_path)
 
-session = GoogleDrive::Session.from_config("config.json")
-session.upload_from_file(zip_file_path,"bt9.zip")
-
+session = GoogleDrive::Session.from_config('config.json')
+session.upload_from_file(zip_file_path, 'bt9.zip')

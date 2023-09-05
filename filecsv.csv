@@ -1,0 +1,11 @@
+created_at,name,avatar,sex,active
+2023-05-30 13:17:04 +0700,name1,link1,male,TRUE
+2023-05-30 13:17:04 +0701,name2,link2,male,TRUE
+2023-05-30 13:17:04 +0702,name3,link3,male,TRUE
+2023-05-30 13:17:04 +0703,name4,link4,female,TRUE
+2023-05-30 13:17:04 +0704,name5,link5,female,TRUE
+2023-05-30 13:17:04 +0705,name6,link6,female,TRUE
+2023-05-30 13:17:04 +0706,name7,link7,female,TRUE
+2023-05-30 13:17:04 +0707,name8,link8,male,TRUE
+2023-05-30 13:17:04 +0708,name9,link9,male,TRUE
+2023-05-30 13:17:04 +0709,name10,link10,male,TRUE
